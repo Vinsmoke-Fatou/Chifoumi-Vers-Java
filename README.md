@@ -1,33 +1,33 @@
-# Chifoumi – Jeu Console en Java
+# Chifoumi – Java Console Game
 
-## Présentation
-Cette application console est une adaptation en langage Java du jeu traditionnel Pierre-Feuille-Ciseaux (Chifoumi). Elle permet à un utilisateur de se mesurer à l'ordinateur à travers une interface textuelle interactive, structurée selon les principes de la programmation orientée objet (POO).
+## Overview
+This console application is a Java-based implementation of the traditional Rock-Paper-Scissors game (Chifoumi). It allows a user to compete against the computer through an interactive textual interface, structured according to Object-Oriented Programming (OOP) principles.
 
-## Fonctionnalités
+## Features
 
-- Gestion des Joueurs :
-  _Prise en compte des choix de l'utilisateur humain via des saisies sécurisées dans la console.
-  _Génération pseudo-aléatoire et automatisée des actions du joueur virtuel (la machine).
+- Player Management:
+  _Captures human user choices via secure inputs within the console.
+  _Automated, pseudo-random generation of actions for the virtual player (the machine).
 
-- Arbitrage et Logique du Jeu :
-  _Évaluation instantanée des règles de confrontation (la pierre bat les ciseaux, la feuille bat la pierre, les ciseaux battent la feuille).
-  _Détection automatique des cas d'égalité, de victoire ou de défaite.
+- Arbitrage and Game Logic:
+  _Instant evaluation of confrontation rules (rock beats scissors, paper beats rock, scissors beat paper).
+  _Automatic detection of ties, wins, or losses.
 
-- Expérience Utilisateur :
-  _Interface textuelle claire avec affichage des choix respectifs de chaque joueur.
-  _Annonce dynamique des résultats de la manche dans le terminal.
+- User Experience:
+  _Clean textual interface displaying the respective choices of each player.
+  _Dynamic announcement of round results directly in the terminal.
 
-## Architecture du projet
+## Project Architecture
 
-Le projet est organisé sous forme de package Java structuré de la manière suivante :
+The project is organized into a Java package structured as follows:
 
 Chifoumi-Vers-Java/
 ├── src/
-│   └── chifoumi/      # Package contenant les classes de l'application
-│       ├── Main.java  # Point d'entrée et gestion de la boucle de jeu
-│       ├── Jeu.java   # Moteur de règles et gestion de la partie
-│       └── Joueur.java# Modélisation et comportement des participants
-└── Chifoumi.iml       # Fichier de configuration de l'environnement (IntelliJ IDEA)
+│   └── chifoumi/      # Package containing application classes
+│       ├── Main.java  # Entry point and game loop management
+│       ├── Jeu.java   # Rule engine and match management
+│       └── Joueur.java# Modeling and behavior of participants
+└── Chifoumi.iml       # Environment configuration file (IntelliJ IDEA)
 
 ---
-Projet académique réalisé pour illustrer la conception orientée objet en Java.
+Academic project created to demonstrate object-oriented design in Java.
